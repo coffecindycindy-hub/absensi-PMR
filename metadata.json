@@ -1,0 +1,6 @@
+{
+  "name": "PMR Attendance",
+  "description": "Sistem Manajemen dan Absensi Ekstrakurikuler PMR SMK Muhammadiyah 1 Penajam Paser Utara",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

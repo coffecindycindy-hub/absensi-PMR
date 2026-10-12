@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "name": "Admin PMR",
+      "email": "admin@pmr.local",
+      "passwordHash": "$2b$10$dNtmoqN8DMkUv0RdUlO5bOIqQGqNU26kv/dR0RW/ReUIAWGIwlbHS",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:17.855Z",
+      "updatedAt": "2026-10-05T05:57:17.855Z"
+    },
+    {
+      "id": "usr-supervisor",
+      "name": "Pembina PMR",
+      "email": "pembina@pmr.local",
+      "passwordHash": "$2b$10$dNtmoqN8DMkUv0RdUlO5bOj/hlAM6Owcg0eQPShcqNQhuT1FYa3rK",
+      "role": "SUPERVISOR",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:17.978Z",
+      "updatedAt": "2026-10-05T05:57:17.978Z"
+    },
+    {
+      "id": "usr-member-1",
+      "name": "Ahmad Fauzi",
+      "email": "ahmad@pmr.local",
+      "passwordHash": "$2b$10$dNtmoqN8DMkUv0RdUlO5bO4BiHUUJs0G9EiDZp0g4q4D8udhDbXmC",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.111Z",
+      "updatedAt": "2026-10-05T05:57:18.111Z"
+    },
+    {
+      "id": "usr-member-2",
+      "name": "Siti Aminah",
+      "email": "siti@pmr.local",
+      "passwordHash": "$2b$10$dNtmoqN8DMkUv0RdUlO5bO4BiHUUJs0G9EiDZp0g4q4D8udhDbXmC",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.277Z",
+      "updatedAt": "2026-10-05T05:57:18.277Z"
+    },
+    {
+      "id": "usr-member-3",
+      "name": "Rizky Pratama",
+      "email": "rizky@pmr.local",
+      "passwordHash": "$2b$10$dNtmoqN8DMkUv0RdUlO5bO4BiHUUJs0G9EiDZp0g4q4D8udhDbXmC",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.478Z",
+      "updatedAt": "2026-10-05T05:57:18.478Z"
+    }
+  ],
+  "members": [
+    {
+      "id": "mem-1",
+      "userId": "usr-member-1",
+      "nis": "12345",
+      "fullName": "Ahmad Fauzi",
+      "className": "X-A",
+      "gender": "MALE",
+      "phone": "081234567890",
+      "position": "CHAIRMAN",
+      "photoUrl": "",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.111Z",
+      "updatedAt": "2026-10-05T05:57:18.111Z"
+    },
+    {
+      "id": "mem-2",
+      "userId": "usr-member-2",
+      "nis": "12346",
+      "fullName": "Siti Aminah",
+      "className": "XI-B",
+      "gender": "FEMALE",
+      "phone": "081234567891",
+      "position": "SECRETARY",
+      "photoUrl": "",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.277Z",
+      "updatedAt": "2026-10-05T05:57:18.277Z"
+    },
+    {
+      "id": "mem-3",
+      "userId": "usr-member-3",
+      "nis": "12347",
+      "fullName": "Rizky Pratama",
+      "className": "XII-C",
+      "gender": "MALE",
+      "phone": "081234567892",
+      "position": "MEMBER",
+      "photoUrl": "",
+      "status": "ACTIVE",
+      "createdAt": "2026-10-05T05:57:18.478Z",
+      "updatedAt": "2026-10-05T05:57:18.478Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "title": "Latihan Dasar Kepemimpinan PMR",
+      "description": "Latihan dasar kepemimpinan dan manajemen organisasi PMR.",
+      "date": "2026-10-04",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "status": "COMPLETED",
+      "createdBy": "usr-admin",
+      "createdAt": "2026-10-05T05:57:18.484Z",
+      "updatedAt": "2026-10-05T05:57:18.484Z"
+    },
+    {
+      "id": "act-2",
+      "title": "Simulasi Pertolongan Pertama Bencana",
+      "description": "Praktek simulasi evakuasi dan pertolongan pertama pada kecelakaan.",
+      "date": "2026-10-05",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "status": "ONGOING",
+      "createdBy": "usr-admin",
+      "createdAt": "2026-10-05T05:57:18.484Z",
+      "updatedAt": "2026-10-05T05:57:18.484Z"
+    },
+    {
+      "id": "act-3",
+      "title": "Materi Sanitasi dan Kesehatan Remaja",
+      "description": "Pemberian materi kebersihan diri, sanitasi lingkungan, dan pola hidup sehat.",
+      "date": "2026-10-06",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "status": "UPCOMING",
+      "createdBy": "usr-admin",
+      "createdAt": "2026-10-05T05:57:18.484Z",
+      "updatedAt": "2026-10-05T05:57:18.484Z"
+    },
+    {
+      "title": "latihan rutin pertolongan pertama PP",
+      "description": "jghfdjkdsjchsfhbssuhdasvnkgjdfgvbcasduhwyfdnshafsfjsuyfgadh",
+      "date": "2026-10-06",
+      "startTime": "03:59",
+      "endTime": "05:30",
+      "status": "UPCOMING",
+      "createdBy": "usr-admin",
+      "id": "act-atpag0du7",
+      "createdAt": "2026-10-05T06:44:14.017Z",
+      "updatedAt": "2026-10-05T06:44:14.020Z"
+    }
+  ],
+  "attendances": [
+    {
+      "id": "att-1",
+      "memberId": "mem-1",
+      "activityId": "act-1",
+      "status": "PRESENT",
+      "checkIn": "2026-10-04T07:05:00.000Z",
+      "note": "Hadir tepat waktu",
+      "createdAt": "2026-10-05T05:57:18.485Z",
+      "updatedAt": "2026-10-05T05:57:18.485Z"
+    },
+    {
+      "id": "att-2",
+      "memberId": "mem-2",
+      "activityId": "act-1",
+      "status": "PERMISSION",
+      "checkIn": null,
+      "note": "Izin mengikuti lomba sekolah",
+      "createdAt": "2026-10-05T05:57:18.485Z",
+      "updatedAt": "2026-10-05T05:57:18.485Z"
+    },
+    {
+      "id": "att-3",
+      "memberId": "mem-3",
+      "activityId": "act-1",
+      "status": "SICK",
+      "checkIn": null,
+      "note": "Sakit demam",
+      "createdAt": "2026-10-05T05:57:18.485Z",
+      "updatedAt": "2026-10-05T05:57:18.485Z"
+    }
+  ]
+}
